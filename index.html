@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>All People Mission Church</title>
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Nanum+Myeongjo:wght@400;700;800&family=Song+Myung&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav id="nav-bar" class="white-bg padding">
+        <div class="logo">
+            <a href="./">
+                <img class="logo-img" src="img/icon.png" alt="All People Mission Church large icon">
+                <img class="logo-mobile" src="img/icon-mobile.png" alt="All People Mission Church small icon">
+            </a>
+        </div>
+        <div class="toggle">
+            <div class="hamburger" id="hamburger-1" onclick="toggleMenu()">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <div id="backdrop" onclick="toggleMenu()"></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="sermons.html">Sermons</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <div class="header pic-bg nav-spacing"
+        alt="Background image of cross with sunset, taken by Thanti Riess on Unsplash">
+        <div class="white-text">
+            <!-- <h3 class="shadow-text padding">우리 교회에 오신 여러분들을 주님의 이름으로 환영합니다</h3>
+            <hr class="shadow-box white-hr"> -->
+            <h1 class="shadow-text padding">WELCOME TO</h1>
+            <h1 class="shadow-text padding">ALL PEOPLE MISSION CHURCH</h1>
+            <div class="small-spacing-top padding">
+                <a class="btn btn-white" href="about.html">교회 소개</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="white-bg">
+        <div class="header-sub width center-text">
+            <h2 class="padding-bottom">"섬들이 나의 영광을 열 방에 선포 하리라.</h2>
+            <h3 class=" small-spacing-bottom">— 이사야 66:19</h3>
+            <div class="center-text">
+                <a class="btn btn-red" href="sermons.html">
+                    주일 설교</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICES -->
+    <div class="spacing">
+        <div class="width spacing">
+            <h1 class="pad-heading center-text">안내 <span></span></h1>
+            <div class="center-text spacing">
+                <div class="circle off-color-bg">
+                    <div class="center-text">
+                        <h3 class="spacing-top padding-bottom">예배</h3>
+                        <p>Sun 9:30 AM</p>
+                    </div>
+                </div>
+                <div class="circle off-color-bg">
+                    <div class="center-text">
+                        <h3 class="spacing-top padding-bottom">기도회</h3>
+                        <p>Mon & Fri 4-7 PM</p>
+                    </div>
+                </div>
+                <div class="circle off-color-bg">
+                    <div class="center-text">
+                        <h3 class="spacing-top padding-bottom">선교</h3>
+                        <p>태국, 2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="center-text">
+                <a class="btn btn-red" href="contact.html">문의 하기</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- YOUTUBE SERMON -->
+    <div class="color-bg">
+        <div class="header-sub width center-text">
+            <h2 class="pad-heading">전체 설교</h2>
+            <hr class="center-me white-hr">
+            <h3 class=" small-spacing-bottom">모든 설교 유튜브 채널 바로가기</h3>
+            <div class="center-text">
+                <a class="btn btn-red" target="_blank" href="https://www.youtube.com/@AllPeopleMissionChurch">
+                    주일예배 영상보기</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="dark-bg spacing white-text">
+        <div class="width flex-footer">
+            <div>
+                <h4>ALL PEOPLE MISSION CHURCH</h4>
+                <p>1989 E. Calaveras Blvd</p>
+                <p>Milpitas, CA 95035</p>
+                <br>
+                <p>Tel: (808) 250-1784</p>
+                <p>Email: allpeoplemission@gmail.com</p>
+            </div>
+            <div class="right-space footer-links">
+                <p><a href="./">Home</a></p>
+                <p><a href="about.html">About</a></p>
+                <p><a href="sermons.html">Sermons</a></p>
+                <p><a href="contact.html">Contact</a></p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="dark-bg padding white-text">
+        <div>2024 © All People Mission Church</div>
+        <div>Website by <a target="_blank" href="https://citrusandspice.design/">
+                Citrus & Spice</a>
+        </div>
+    </footer>
+
+    <!-- javascript -->
+    <script src="js/script.js" charset="utf-8"></script>
+</body>
+
+</html>
