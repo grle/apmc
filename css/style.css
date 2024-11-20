@@ -100,6 +100,12 @@ nav {
   height: var(--nav);
 }
 
+iframe {
+  height: 400px;
+  max-width: 700px; 
+  width: 100%;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -444,6 +450,12 @@ hr {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 15px;
 }
+
+/* .grid-yt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px;
+} */
 
 .circle {
   height: 300px;

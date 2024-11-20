@@ -161,6 +161,10 @@
         font-size: 1.3rem;
     }
 
+    iframe {
+        height: 300px;
+    }
+
     .pic-bg {
         padding: 7rem 0rem;
     }
